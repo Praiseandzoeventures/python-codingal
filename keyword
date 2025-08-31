@@ -1,0 +1,4 @@
+import keyword
+
+print ("python key world are:")
+print (keyword.kwlist)
