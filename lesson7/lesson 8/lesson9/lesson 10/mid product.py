@@ -6,36 +6,36 @@ numlen=0
 
 while t>0:
 
-numlen += 1
+ numlen += 1
 
-t= int(t/10)
+ t= int(t/10)
 
 if numlen>=4:
 
-numlen = int(numlen/2)
+ numlen = int(numlen/2)
 
-chk=0
+ chk=0
 
-while num>0:
+ while num>0:
 
-rem=num%10
+    rem=num%10
 
-if chk == numlen:
+    if chk == numlen:
 
-midone=rem
+        midone=rem
 
-elif chk == (numlen-1):
+    elif chk == (numlen-1):
 
-midtwo = rem
+         midtwo = rem
 
-num = int(num/10)
+    num = int(num/10)
 
-chk=chk+1
+    chk=chk+1
 
-prod = midone*midtwo
+    prod = midone*midtwo
 
-print("the product is:",prod)
+    print("the product is:",prod)
 
 else:
 
-print("it is not 4 or more")
+    print("it is not 4 or more")
