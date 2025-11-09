@@ -1,0 +1,13 @@
+set1={1,2,3}
+print(set1)
+
+set2={1.0,"hello",(1,2,3)}
+print(set2)
+
+set3={5,8.9,9,9,0,7,5,8,90,34,78,99,30}
+print(set3)
+
+set4=set([1,2,3,4,5])
+print(set4)
+set4.pop()
+print(set4)
