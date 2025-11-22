@@ -9,4 +9,3 @@ class dog:
         
 print(dog.name,"is",dog.age,"years old")
 print(dog.name," is",dog.age,"years old")
-
