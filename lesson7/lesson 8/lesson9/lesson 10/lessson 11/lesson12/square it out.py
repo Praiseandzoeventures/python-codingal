@@ -10,5 +10,6 @@ while True:
         pen.forward(60)
         pen.down(30)
         pen.up(40)
+        pen.right(90)
         
         turtle.done()
