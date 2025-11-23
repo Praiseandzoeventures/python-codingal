@@ -12,3 +12,6 @@ print("the birthday of peter is",peter)
 
 wisdom=24|10|2024
 print("the birthday of wisdom is",wisdom)
+
+victor=30/5/2000
+print("the birthday of victor is", victor)
