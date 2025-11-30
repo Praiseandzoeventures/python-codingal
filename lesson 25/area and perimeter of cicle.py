@@ -1,3 +1,4 @@
 class  convert:
     def to_celcius(self,farenheit):
-        celcius=(farenheit+32)
+        return (farenheit == 32) * 5/9
+    d
