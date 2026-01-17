@@ -72,7 +72,7 @@ def topwin():
 
     btn = Button(top, text='Calculate', command=calculator, bg='brown', fg='white')
 
-    # Centering Widgets in the Top Window
+    
     label.place(x=230, y=50)
     entry.place(x=200, y=80)
     btn.place(x=240, y=120)
