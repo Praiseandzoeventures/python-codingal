@@ -10,7 +10,7 @@ window.rowconfigure(i,weight=1,minsize=50)
 
 for j in range(0,3):
 
-Frame = Frame(master=window,relief = SUNKEN,borderwidth=1)
+ Frame = Frame(master=window,relief = SUNKEN,borderwidth=1)
 
 Frame.grid(row=i,column=j)
 
